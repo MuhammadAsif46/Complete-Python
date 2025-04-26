@@ -94,7 +94,8 @@ python3 first.py
 ```
 ---
 
-- [Comments in Python](#comments-in-python)
+## Comments in Python
+
 ```bash
 # Printing a number
 print(200)            
