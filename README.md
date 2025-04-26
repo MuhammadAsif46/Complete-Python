@@ -62,8 +62,38 @@ python3 --version
 ```bash
 python3 filename.py
 ```
+---
 
-- [Your First Python Program](#your-first-python-program)
+## Your First Python Program
+
+Let's write and run your very first Python programs! 🎉
+
+In Python, the `print()` function is used to display output on the screen.
+
+Here are some basic examples:
+
+```python
+print(200)            # Prints the number 200
+print("Hello World")  # Prints the text Hello World
+print(10 * 5)         # Prints the result of 10 multiplied by 5 (i.e., 50)
+print(10 % 3)         # Prints the remainder when 10 is divided by 3 (i.e., 1)
+```
+### How to run:
+1. Open your code editor or terminal.
+2. Save the code in a file named first.py.
+3. Run the program:
+
+- For Windows:
+```bash
+python first.py
+```
+
+- For Linux/macOS:
+```bash
+python3 first.py
+```
+---
+
 - [Comments in Python](#comments-in-python)
 - [Variables](#variables)
 - [Data Types](#data-types)
