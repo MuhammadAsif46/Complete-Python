@@ -8,6 +8,26 @@ Perfect for beginners and intermediate learners.
 ## 📚 Table of Contents
 
 - [Python Installation and Setup](#python-installation-and-setup)
+
+## Python Installation and Setup
+
+To start coding in Python, you need to install Python on your computer.
+
+🔹 Download the latest version of Python from the official website:  
+👉 [https://www.python.org/downloads/](https://www.python.org/downloads/)
+
+🔹 Installers are available for Windows, macOS, and Linux.
+
+🔹 While installing on Windows, make sure to check the option **"Add Python to PATH"** during the setup process.
+
+🔹 After installation, verify it by running the following command in the terminal or command prompt:
+
+```bash
+python --version
+```
+
+---
+
 - [Running Python on Linux](#running-python-on-linux)
 - [Your First Python Program](#your-first-python-program)
 - [Comments in Python](#comments-in-python)
@@ -47,7 +67,11 @@ Perfect for beginners and intermediate learners.
 
 ## 🚀 About
 
-These notes are designed to help learners move from basic Python concepts to more advanced programming skills.  
+These notes are designed to help learners move from basic Python concepts to more advanced programming skills.
 Ideal for building projects, automation, and real-world applications.
 
 ---
+
+```
+
+```
