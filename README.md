@@ -119,7 +119,7 @@ print(10 * 3)
 
 ```
 
-- Multi Lines commment
+- Multi-line comment example:
 
 ```bash
 '''
