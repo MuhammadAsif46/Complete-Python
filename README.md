@@ -95,6 +95,27 @@ python3 first.py
 ---
 
 - [Comments in Python](#comments-in-python)
+```bash
+# Printing a number
+print(200)            
+
+#  Printing a text message
+print("Hello World") 
+
+# Printing the sum of two numbers
+print(10 + 5) 
+
+# Printing the product of two numbers
+print(10 * 3)  
+
+'''
+This is a multi-line comment.
+You can use triple single quotes ('''or''') or triple double quotes (""" or """) 
+to write comments that span multiple lines.
+'''
+```
+---
+
 - [Variables](#variables)
 - [Data Types](#data-types)
 - [Arithmetic Operations](#arithmetic-operations)
