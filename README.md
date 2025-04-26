@@ -62,6 +62,7 @@ python3 --version
 ```bash
 python3 filename.py
 ```
+
 ---
 
 ## Your First Python Program
@@ -78,43 +79,56 @@ print("Hello World")  # Prints the text Hello World
 print(10 * 5)         # Prints the result of 10 multiplied by 5 (i.e., 50)
 print(10 % 3)         # Prints the remainder when 10 is divided by 3 (i.e., 1)
 ```
+
 ### How to run:
+
 1. Open your code editor or terminal.
 2. Save the code in a file named first.py.
 3. Run the program:
 
 - For Windows:
+
 ```bash
 python first.py
 ```
 
 - For Linux/macOS:
+
 ```bash
 python3 first.py
 ```
+
 ---
 
 ## Comments in Python
 
+- Single-line comment example:
+
 ```bash
 # Printing a number
-print(200)            
+print(200)
 
 #  Printing a text message
-print("Hello World") 
+print("Hello World")
 
 # Printing the sum of two numbers
-print(10 + 5) 
+print(10 + 5)
 
 # Printing the product of two numbers
-print(10 * 3)  
+print(10 * 3)
 
+```
+
+- Multi Lines commment
+
+```bash
 '''
 This is a multi-line comment.
-You can use triple single quotes ('''or''') or triple double quotes (""" or """) 
+You can use triple single quotes ('''or''') or triple double quotes (""" or """)
 to write comments that span multiple lines.
 '''
 ```
+
 ---
 
 - [Variables](#variables)
