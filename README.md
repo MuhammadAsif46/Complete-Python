@@ -7,8 +7,6 @@ Perfect for beginners and intermediate learners.
 
 ## 📚 Table of Contents
 
-- [Python Installation and Setup](#python-installation-and-setup)
-
 ## Python Installation and Setup
 
 To start coding in Python, you need to install Python on your computer.
@@ -28,7 +26,43 @@ python --version
 
 ---
 
-- [Running Python on Linux](#running-python-on-linux)
+## Running Python on Linux
+
+Most Linux distributions (like Ubuntu, Fedora, Debian) come with Python pre-installed.
+
+🔹 To check if Python is already installed, open the terminal and run:
+
+```bash
+python3 --version
+```
+
+🔹 If Python is not installed, you can install it using the package manager:
+
+- For Debian/Ubuntu based systems:
+
+```bash
+sudo apt update
+sudo apt install python3
+```
+
+- For Fedora:
+
+```bash
+sudo dnf install python3
+```
+
+🔹 After installation, verify by running:
+
+```bash
+python3 --version
+```
+
+✅ Now you can run Python programs using:
+
+```bash
+python3 filename.py
+```
+
 - [Your First Python Program](#your-first-python-program)
 - [Comments in Python](#comments-in-python)
 - [Variables](#variables)
