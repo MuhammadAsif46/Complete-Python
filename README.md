@@ -7,8 +7,6 @@ Perfect for beginners and intermediate learners.
 
 ## 📚 Table of Contents
 
-- [Course Introduction](#course-introduction)
-- [Why Learn Python?](#why-learn-python)
 - [Python Installation and Setup](#python-installation-and-setup)
 - [Running Python on Linux](#running-python-on-linux)
 - [Your First Python Program](#your-first-python-program)
