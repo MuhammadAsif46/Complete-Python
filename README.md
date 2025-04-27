@@ -389,7 +389,7 @@ print(single_item)  # (5,)
 
 ---
 
-### Dictionaries
+## Dictionaries
 
 In Python, a dictionary is a collection of key-value pairs. Dictionaries are **unordered**, **mutable**, and **indexed**.
 
