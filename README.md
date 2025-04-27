@@ -236,7 +236,53 @@ print(a ** b)  # 1000
 ```
 
 ---
-- [String Operations](#string-operations)
+
+### String Operations
+
+In Python, strings are sequences of characters. You can perform many operations on strings like joining, slicing, repeating, and finding length.
+
+| Operation     | Example                      | Output          |
+|:--------------|:------------------------------|:----------------|
+| Concatenation | `"Hello " + "World"`           | `Hello World`   |
+| Repetition    | `"Hi " * 3`                    | `Hi Hi Hi `     |
+| Length        | `len("Python")`                | `6`             |
+| Slicing       | `"Python"[0:3]`                | `Pyt`           |
+| Lowercase     | `"HELLO".lower()`              | `hello`         |
+| Uppercase     | `"hello".upper()`              | `HELLO`         |
+| Replace       | `"hello world".replace("world", "Python")` | `hello Python` |
+| Find          | `"hello".find("e")`             | `1`             |
+
+#### Examples:
+
+```python
+str1 = "Hello"
+str2 = "World"
+
+# Concatenation
+print(str1 + " " + str2)    # Hello World
+
+# Repetition
+print(str1 * 3)             # HelloHelloHello
+
+# Length
+print(len(str2))            # 5
+
+# Slicing
+print(str1[0:3])            # Hel
+
+# Lowercase and Uppercase
+print(str2.lower())         # world
+print(str1.upper())         # HELLO
+
+# Replace
+sentence = "I love Java"
+print(sentence.replace("Java", "Python"))  # I love Python
+
+# Find
+print(str1.find('e'))       # 1
+```
+---
+
 - [Lists](#lists)
 - [Tuples](#tuples)
 - [Dictionaries](#dictionaries)
