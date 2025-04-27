@@ -51,3 +51,8 @@ print("Floor Division:", floor_division_result)
 num = -10
 absolute_value_result = abs(num)
 print("Absolute Value:", absolute_value_result)
+
+
+# Bodmas Rule
+result = 2 * (3 + 4)**2 - 5 / 6
+print("Bodmas Rule Result:", result)
