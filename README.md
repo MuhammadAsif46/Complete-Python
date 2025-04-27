@@ -206,7 +206,36 @@ print(type(y))   # Output: <class 'str'>
 
 ---
 
-- [Arithmetic Operations](#arithmetic-operations)
+## Arithmetic Operations
+
+In Python, arithmetic operations are used to perform basic mathematical calculations like addition, subtraction, multiplication, and division.
+
+| Operator | Description        | Example     | Output  |
+|:---------|:--------------------|:------------|:--------|
+| `+`      | Addition             | `5 + 3`     | `8`     |
+| `-`      | Subtraction          | `5 - 3`     | `2`     |
+| `*`      | Multiplication       | `5 * 3`     | `15`    |
+| `/`      | Division             | `5 / 2`     | `2.5`   |
+| `//`     | Floor Division       | `5 // 2`    | `2`     |
+| `%`      | Modulus (Remainder)  | `5 % 2`     | `1`     |
+| `**`     | Exponent (Power)     | `2 ** 3`    | `8`     |
+
+#### Examples:
+
+```python
+a = 10
+b = 3
+
+print(a + b)   # 13
+print(a - b)   # 7
+print(a * b)   # 30
+print(a / b)   # 3.333...
+print(a // b)  # 3
+print(a % b)   # 1
+print(a ** b)  # 1000
+```
+
+---
 - [String Operations](#string-operations)
 - [Lists](#lists)
 - [Tuples](#tuples)
