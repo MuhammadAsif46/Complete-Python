@@ -340,7 +340,55 @@ print(len(fruits))  # 3
 
 ---
 
-- [Tuples](#tuples)
+## Tuples
+
+In Python, a tuple is a collection which is ordered and **immutable** (cannot be changed after creation). Tuples allow duplicate elements.
+
+1. Tuples are defined using parentheses `()`.
+2. Elements can be of different data types.
+3. Tuples are immutable (no add, remove, or change after creation).
+4. Tuples allow duplicate values.
+5. Useful when you want data to stay constant.
+
+| Operation        | Example                      | Output                |
+|:-----------------|:------------------------------|:----------------------|
+| Create Tuple     | `my_tuple = (1, 2, 3)`         | `(1, 2, 3)`           |
+| Single Item Tuple| `single = (5,)`                | `(5,)`                |
+| Indexing         | `my_tuple[1]`                 | `2`                   |
+| Slicing          | `my_tuple[0:2]`               | `(1, 2)`              |
+| Length           | `len(my_tuple)`               | `3`                   |
+| Count Elements   | `my_tuple.count(2)`            | `1`                   |
+| Find Index       | `my_tuple.index(3)`            | `2`                   |
+
+#### Examples:
+
+```python
+# Creating a tuple
+numbers = (1, 2, 3, 4)
+
+# Accessing elements
+print(numbers[0])  # 1
+
+# Slicing
+print(numbers[1:3])  # (2, 3)
+
+# Length of tuple
+print(len(numbers))  # 4
+
+# Count specific value
+print(numbers.count(2))  # 1
+
+# Find index of a value
+print(numbers.index(3))  # 2
+
+# Single item tuple (must include comma)
+single_item = (5,)
+print(single_item)  # (5,)
+```
+✅ Tuples are perfect when you want fixed, read-only data in Python.
+
+---
+
 - [Dictionaries](#dictionaries)
 - [Sets](#sets)
 - [User Input](#user-input)
