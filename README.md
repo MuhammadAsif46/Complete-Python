@@ -131,8 +131,81 @@ to write comments that span multiple lines.
 
 ---
 
-- [Variables](#variables)
-- [Data Types](#data-types)
+## Variables
+
+🔹 How to create a variable in Python:
+
+```python
+name = "Asif"
+age = 22
+price = 499.99
+is_active = True
+```
+🔹 Roles of Variables:
+
+- Store information (like numbers, text, etc.)
+- Make code readable and organized
+- Allow reuse of values without repeating
+- Help in doing calculations and data processing easily
+
+✅ In Python, you don't need to declare the type of a variable — Python automatically figures it out based on the assigned value.
+
+---
+
+## Data Types
+
+Data types represent the kind of data a variable holds. 
+Each value in Python has a specific type.
+
+🔹 Common Data Types in Python:
+
+- **int** — Integer numbers (e.g., 10, -5, 200)
+- **float** — Decimal numbers (e.g., 10.5, 3.14)
+- **str** — Strings/Text (e.g., "Hello", "Python")
+- **bool** — Boolean (True or False)
+- **list** — Ordered collection (e.g., [1, 2, 3])
+- **tuple** — Immutable ordered collection (e.g., (1, 2, 3))
+- **dict** — Key-Value pairs (e.g., {"name": "Asif", "age": 22})
+- **set** — Unordered unique elements (e.g., {1, 2, 3})
+
+🔹 Examples:
+```bash
+# Integer
+x = 10
+
+# Float
+y = 20.5
+
+# String
+name = "Asif"
+
+# Boolean
+is_active = True
+
+# List
+fruits = ["apple", "banana", "mango"]
+
+# Dictionary
+student = {"name": "Asif", "age": 22}
+```
+
+✅ Python automatically sets the type when you assign a value.
+
+### How to Check the Type of a Variable
+In Python, you can use the type() function to check what type of data a variable holds.
+
+🔹 Example:
+```bash
+x = 10
+print(type(x))   # Output: <class 'int'>
+
+y = "Hello"
+print(type(y))   # Output: <class 'str'>
+```
+✅ type() function helps you understand what kind of value a variable is storing.
+
+---
+
 - [Arithmetic Operations](#arithmetic-operations)
 - [String Operations](#string-operations)
 - [Lists](#lists)
