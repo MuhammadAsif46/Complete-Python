@@ -237,7 +237,7 @@ print(a ** b)  # 1000
 
 ---
 
-### String Operations
+## String Operations
 
 In Python, strings are sequences of characters. You can perform many operations on strings like joining, slicing, repeating, and finding length.
 
@@ -283,7 +283,63 @@ print(str1.find('e'))       # 1
 ```
 ---
 
-- [Lists](#lists)
+## Lists
+
+In Python, a list is a collection which is ordered and changeable (mutable). Lists allow duplicate elements.
+
+1. Lists are defined using square brackets `[]`.
+2. Elements can be of different data types.
+3. Lists are mutable (we can change, add, or remove items).
+4. Lists allow duplicate values.
+5. Common operations include indexing, slicing, adding, removing, and looping.
+
+| Operation        | Example                     | Output                    |
+|:-----------------|:-----------------------------|:---------------------------|
+| Create List      | `my_list = [1, 2, 3]`         | `[1, 2, 3]`                |
+| Indexing         | `my_list[0]`                 | `1`                       |
+| Slicing          | `my_list[0:2]`               | `[1, 2]`                  |
+| Append           | `my_list.append(4)`          | `[1, 2, 3, 4]`            |
+| Insert           | `my_list.insert(1, 5)`       | `[1, 5, 2, 3, 4]`         |
+| Remove           | `my_list.remove(2)`          | `[1, 5, 3, 4]`            |
+| Pop              | `my_list.pop()`              | Removes last element `4`  |
+| Length           | `len(my_list)`               | `3` (after pop)           |
+
+#### Examples:
+
+```python
+# Creating a list
+fruits = ["apple", "banana", "cherry"]
+
+# Accessing elements
+print(fruits[0])  # apple
+
+# Slicing
+print(fruits[0:2])  # ['apple', 'banana']
+
+# Adding elements
+fruits.append("orange")
+print(fruits)  # ['apple', 'banana', 'cherry', 'orange']
+
+# Inserting elements
+fruits.insert(1, "mango")
+print(fruits)  # ['apple', 'mango', 'banana', 'cherry', 'orange']
+
+# Removing elements
+fruits.remove("banana")
+print(fruits)  # ['apple', 'mango', 'cherry', 'orange']
+
+# Popping the last element
+last_fruit = fruits.pop()
+print(last_fruit)  # orange
+print(fruits)      # ['apple', 'mango', 'cherry']
+
+# Length of list
+print(len(fruits))  # 3
+```
+✅ Lists are super flexible for storing multiple values in a single variable.
+
+---
+
 - [Tuples](#tuples)
 - [Dictionaries](#dictionaries)
 - [Sets](#sets)
