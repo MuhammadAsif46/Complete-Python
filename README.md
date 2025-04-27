@@ -389,7 +389,64 @@ print(single_item)  # (5,)
 
 ---
 
-- [Dictionaries](#dictionaries)
+### Dictionaries
+
+In Python, a dictionary is a collection of key-value pairs. Dictionaries are **unordered**, **mutable**, and **indexed**.
+
+1. Dictionaries store data in key-value pairs.
+2. Keys must be unique and immutable (like strings, numbers).
+3. Values can be of any data type.
+4. Dictionaries are mutable (can add, change, or remove key-value pairs).
+5. Useful for structured data storage (like JSON).
+
+| Operation          | Example                                  | Output                          |
+|:-------------------|:-----------------------------------------|:--------------------------------|
+| Create Dictionary  | `my_dict = {"name": "Asif", "age": 20}`   | `{'name': 'Asif', 'age': 20}`   |
+| Access Value       | `my_dict["name"]`                        | `'Asif'`                        |
+| Add Item           | `my_dict["city"] = "Karachi"`             | Adds `'city': 'Karachi'`        |
+| Update Value       | `my_dict["age"] = 21`                    | Updates `'age': 21`             |
+| Remove Item        | `my_dict.pop("city")`                    | Removes `'city'`                |
+| Keys List          | `my_dict.keys()`                         | `dict_keys(['name', 'age'])`    |
+| Values List        | `my_dict.values()`                       | `dict_values(['Asif', 21])`     |
+| Items (Pairs)      | `my_dict.items()`                        | `dict_items([('name', 'Asif'), ('age', 21)])` |
+
+#### Examples:
+
+```python
+# Creating a dictionary
+student = {
+    "name": "Asif",
+    "age": 20,
+    "course": "Python"
+}
+
+# Accessing values
+print(student["name"])  # Asif
+
+# Adding new key-value pair
+student["city"] = "Karachi"
+print(student)
+
+# Updating value
+student["age"] = 21
+print(student)
+
+# Removing a key-value pair
+student.pop("course")
+print(student)
+
+# Getting all keys
+print(student.keys())
+
+# Getting all values
+print(student.values())
+
+# Getting all key-value pairs
+print(student.items())
+```
+✅ Dictionaries are perfect for representing structured, real-world data.
+---
+
 - [Sets](#sets)
 - [User Input](#user-input)
 - [Conditional Statements (If-Else)](#conditional-statements-if-else)
