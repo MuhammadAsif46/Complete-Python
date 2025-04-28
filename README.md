@@ -447,7 +447,55 @@ print(student.items())
 ✅ Dictionaries are perfect for representing structured, real-world data.
 ---
 
-- [Sets](#sets)
+## Sets
+
+In Python, a set is an **unordered**, **unindexed**, and **mutable** collection of **unique elements**.
+
+1. Sets automatically remove duplicate values.
+2. Sets are mutable, but elements must be immutable.
+3. Sets do not support indexing or slicing.
+4. Sets are useful for membership tests, removing duplicates, and mathematical operations (union, intersection).
+
+| Operation             | Example                          | Output                           |
+|:----------------------|:---------------------------------|:---------------------------------|
+| Create Set            | `my_set = {1, 2, 3}`             | `{1, 2, 3}`                      |
+| Add Element           | `my_set.add(4)`                  | Adds `4` to the set              |
+| Remove Element        | `my_set.remove(2)`               | Removes `2`                      |
+| Discard Element       | `my_set.discard(5)`              | No error even if `5` not present |
+| Union of Sets         | `set1.union(set2)`               | Combine sets                    |
+| Intersection of Sets  | `set1.intersection(set2)`        | Common elements                 |
+| Difference of Sets    | `set1.difference(set2)`          | Elements only in set1           |
+
+#### Examples:
+
+```python
+# Creating a set
+fruits = {"apple", "banana", "cherry"}
+
+# Adding an element
+fruits.add("orange")
+print(fruits)
+
+# Removing an element
+fruits.remove("banana")
+print(fruits)
+
+# Using discard (no error if element doesn't exist)
+fruits.discard("pineapple")
+
+# Set union
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+print(set1.union(set2))  # {1, 2, 3, 4, 5}
+
+# Set intersection
+print(set1.intersection(set2))  # {3}
+
+# Set difference
+print(set1.difference(set2))  # {1, 2}
+```
+✅ Sets are great for working with unique items and set operations.
+---
 - [User Input](#user-input)
 - [Conditional Statements (If-Else)](#conditional-statements-if-else)
 - [ELIF Statement](#elif-statement)
