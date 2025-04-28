@@ -537,7 +537,7 @@ print(f"The sum is {num1 + num2}")
 
 ---
 
-## Conditional Statements (If-Else)
+## Conditional Statements (If-Else-Elif)
 
 In Python, conditional statements allow you to **make decisions** based on certain conditions.  
 The main keywords are `if`, `else`, and `elif`.
@@ -590,7 +590,6 @@ else:
 
 ---
 
-- [ELIF Statement](#elif-statement)
 - [Nested If-Else](#nested-if-else)
 - [Logical Operators (AND, OR)](#logical-operators-and-or)
 - [For Loops](#for-loops)

@@ -29,3 +29,28 @@ if "Alice" in users:
     print("User Exists.")
 else:
     print("User does not exist.")
+
+
+# If-Elif-Else Statement:
+# Check if the number is positive, negative, or zero
+number = int(input("Enter a number: "))
+if number > 0:
+    print(f"{number} is a positive number.")
+elif number < 0:
+    print(f"{number} is a negative number.")
+else:
+    print("The number is zero.")
+
+
+
+# Nested if-else statement
+country = input("Enter your country: ")
+if country == "Pakistan":
+    print("You are from Pakistan.")
+    city = input("Enter your city: ")
+    if city == "Karachi":
+        print("You are from Karachi city.")
+    else:
+        print("You are not from Karachi city.")
+else:
+    print("You are not from Pakistan.")
