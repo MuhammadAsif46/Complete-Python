@@ -444,7 +444,9 @@ print(student.values())
 # Getting all key-value pairs
 print(student.items())
 ```
+
 ✅ Dictionaries are perfect for representing structured, real-world data.
+
 ---
 
 ## Sets
@@ -495,6 +497,7 @@ print(set1.intersection(set2))  # {3}
 print(set1.difference(set2))  # {1, 2}
 ```
 ✅ Sets are great for working with unique items and set operations.
+
 ---
 
 ## User Input
@@ -529,7 +532,9 @@ num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 print(f"The sum is {num1 + num2}")
 ```
+
 ✅ input() is the way to interact with users in a Python program!
+
 ---
 - [Conditional Statements (If-Else)](#conditional-statements-if-else)
 - [ELIF Statement](#elif-statement)
