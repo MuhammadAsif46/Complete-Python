@@ -496,7 +496,41 @@ print(set1.difference(set2))  # {1, 2}
 ```
 ✅ Sets are great for working with unique items and set operations.
 ---
-- [User Input](#user-input)
+
+## User Input
+
+In Python, `input()` function is used to take input from the user.  
+The input is always received as a **string**. You can typecast it into other data types like `int`, `float`, etc.
+
+| Operation                | Example                                       | Output/Behavior                |
+|:--------------------------|:----------------------------------------------|:-------------------------------|
+| Take String Input         | `name = input("Enter your name: ")`            | User types input (e.g., "Asif") |
+| Take Integer Input        | `age = int(input("Enter your age: "))`         | Converts input to integer      |
+| Take Float Input          | `price = float(input("Enter the price: "))`    | Converts input to float        |
+| Display User Input        | `print(name)`                                 | Prints the user input          |
+
+#### Examples:
+
+```python
+# Taking a string input
+name = input("Enter your name: ")
+print(f"Hello, {name}!")
+
+# Taking an integer input
+age = int(input("Enter your age: "))
+print(f"You are {age} years old.")
+
+# Taking a float input
+price = float(input("Enter the product price: "))
+print(f"The price is {price} dollars.")
+
+# Simple calculation with user input
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+print(f"The sum is {num1 + num2}")
+```
+✅ input() is the way to interact with users in a Python program!
+---
 - [Conditional Statements (If-Else)](#conditional-statements-if-else)
 - [ELIF Statement](#elif-statement)
 - [Nested If-Else](#nested-if-else)
