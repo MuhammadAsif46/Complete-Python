@@ -631,7 +631,44 @@ else:
 
 ---
 
-- [For Loops](#for-loops)
+### For Loops
+
+In Python, a `for` loop is used to **iterate over sequences** like lists, tuples, strings, etc.
+
+| Use Case           | Description                                  |
+|:-------------------|:---------------------------------------------|
+| Loop over a list    | Access each item in a list                  |
+| Loop over a string  | Access each character                      |
+| Use with range()    | Generate numbers in a sequence             |
+
+#### Syntax:
+
+```python
+for item in sequence:
+    # code block
+
+# Looping through a list
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+
+# Looping through a string
+for letter in "Python":
+    print(letter)
+
+# Using range()
+for i in range(5):
+    print(i)   # Prints 0 to 4
+
+# Using range with start and end
+for i in range(2, 7):
+    print(i)   # Prints 2, 3, 4, 5, 6
+```
+
+✅ for loops are perfect for repeating tasks automatically in Python!
+
+---
+
 - [Fizz Buzz Project](#fizz-buzz-project)
 - [While Loops](#while-loops)
 - [Break and Continue Statements](#break-and-continue-statements)
