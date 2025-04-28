@@ -536,7 +536,60 @@ print(f"The sum is {num1 + num2}")
 ✅ input() is the way to interact with users in a Python program!
 
 ---
-- [Conditional Statements (If-Else)](#conditional-statements-if-else)
+
+## Conditional Statements (If-Else)
+
+In Python, conditional statements allow you to **make decisions** based on certain conditions.  
+The main keywords are `if`, `else`, and `elif`.
+
+| Statement | Purpose                                          |
+|:----------|:-------------------------------------------------|
+| if        | Executes a block of code if the condition is true |
+| elif      | (Else If) Checks another condition if previous is false |
+| else      | Executes a block of code if all conditions are false |
+
+#### Syntax:
+
+```python
+if condition:
+    # code block
+elif another_condition:
+    # another code block
+else:
+    # code block if all conditions fail
+
+# Basic if-else
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+
+# Using elif
+marks = int(input("Enter your marks: "))
+if marks >= 90:
+    print("Grade: A")
+elif marks >= 75:
+    print("Grade: B")
+elif marks >= 60:
+    print("Grade: C")
+else:
+    print("Grade: Fail")
+
+# Multiple conditions
+temperature = int(input("Enter the temperature: "))
+if temperature > 30:
+    print("It's hot outside!")
+elif temperature > 20:
+    print("The weather is pleasant.")
+else:
+    print("It's cold outside!")
+```
+
+✅ Conditional statements control the flow of your Python program based on conditions.
+
+---
+
 - [ELIF Statement](#elif-statement)
 - [Nested If-Else](#nested-if-else)
 - [Logical Operators (AND, OR)](#logical-operators-and-or)
