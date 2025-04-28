@@ -590,8 +590,47 @@ else:
 
 ---
 
-- [Nested If-Else](#nested-if-else)
-- [Logical Operators (AND, OR)](#logical-operators-and-or)
+## Logical Operators (AND, OR)
+
+Logical operators are used to **combine multiple conditions**.  
+Python mainly has three logical operators: `and`, `or`, and `not`.
+
+| Operator | Description                               | Example                                |
+|:---------|:------------------------------------------|:---------------------------------------|
+| and      | Returns True if **both** conditions are true | `(5 > 2) and (3 < 7)` → True          |
+| or       | Returns True if **at least one** condition is true | `(5 > 8) or (3 < 7)` → True      |
+
+#### Examples:
+
+```python
+# Using AND operator
+age = int(input("Enter your age: "))
+if age >= 18 and age <= 60:
+    print("You are eligible to work.")
+else:
+    print("You are not eligible to work.")
+
+# Using OR operator
+day = input("Enter the day: ")
+if day == "Saturday" or day == "Sunday":
+    print("It's a weekend!")
+else:
+    print("It's a weekday.")
+
+# Combining multiple conditions
+score = int(input("Enter your score: "))
+if score > 80 and score < 100:
+    print("Excellent!")
+elif score > 50 or score == 50:
+    print("Good!")
+else:
+    print("Needs Improvement.")
+```
+
+✅ Logical operators make your conditional checks more powerful in Python!
+
+---
+
 - [For Loops](#for-loops)
 - [Fizz Buzz Project](#fizz-buzz-project)
 - [While Loops](#while-loops)
