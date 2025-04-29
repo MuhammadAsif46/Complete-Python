@@ -684,6 +684,8 @@ A `while` loop in Python is used to **execute a block of code repeatedly** as lo
 ```python
 while condition:
     # code block
+```
+```python
 # Basic while loop
 count = 1
 while count <= 5:
@@ -711,7 +713,44 @@ while i < 10:
 
 ---
 
-- [Break and Continue Statements](#break-and-continue-statements)
+## Break and Continue Statements
+
+In Python loops, `break` and `continue` are used to control the flow of the loop.
+
+| Statement | Description                                       |
+|:----------|:--------------------------------------------------|
+| break     | Immediately exits the loop                        |
+| continue  | Skips the current iteration and moves to the next |
+
+---
+
+#### break Example:
+
+```python
+# Exit the loop when number is 3
+for i in range(1, 6):
+    if i == 3:
+        break
+    print(i)
+
+# Output: 1, 2
+```
+
+## Continue Example:
+```python
+# Skip printing number 3
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+
+# Output: 1, 2, 4, 5
+```
+
+✅ Use break to stop early, and continue to skip logic inside a loop.
+
+---
+
 - [Functions](#functions)
 - [Using Python Code as a Module](#using-python-code-as-a-module)
 - [Assignment / Exercise](#assignment-exercise)
