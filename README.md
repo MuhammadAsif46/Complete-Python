@@ -669,8 +669,48 @@ for i in range(2, 7):
 
 ---
 
-- [Fizz Buzz Project](#fizz-buzz-project)
-- [While Loops](#while-loops)
+## While Loops
+
+A `while` loop in Python is used to **execute a block of code repeatedly** as long as a given condition is `True`.
+
+| Element      | Description                                  |
+|:-------------|:---------------------------------------------|
+| while loop   | Repeats code while the condition is true     |
+| break        | Exits the loop early                         |
+| continue     | Skips to the next iteration                  |
+
+#### Syntax:
+
+```python
+while condition:
+    # code block
+# Basic while loop
+count = 1
+while count <= 5:
+    print("Count is:", count)
+    count += 1
+
+# Infinite loop with break
+while True:
+    num = int(input("Enter a number (0 to exit): "))
+    if num == 0:
+        break
+    print("You entered:", num)
+
+# Using continue
+i = 0
+while i < 10:
+    i += 1
+    if i % 2 == 0:
+        continue  # Skip even numbers
+    print(i)
+
+```
+
+✅ while loops are ideal when you don't know how many times you need to run the loop.
+
+---
+
 - [Break and Continue Statements](#break-and-continue-statements)
 - [Functions](#functions)
 - [Using Python Code as a Module](#using-python-code-as-a-module)
