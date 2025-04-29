@@ -724,7 +724,7 @@ In Python loops, `break` and `continue` are used to control the flow of the loop
 
 ---
 
-#### break Example:
+### break Example:
 
 ```python
 # Exit the loop when number is 3
@@ -736,7 +736,7 @@ for i in range(1, 6):
 # Output: 1, 2
 ```
 
-## Continue Example:
+### Continue Example:
 ```python
 # Skip printing number 3
 for i in range(1, 6):
