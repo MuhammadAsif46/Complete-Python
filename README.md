@@ -751,7 +751,60 @@ for i in range(1, 6):
 
 ---
 
-- [Functions](#functions)
+### Functions
+
+Functions in Python are **blocks of reusable code** used to perform a specific task.
+
+| Concept         | Description                                     |
+|:----------------|:------------------------------------------------|
+| def             | Keyword to define a function                    |
+| parameters      | Input values to the function                    |
+| return          | Sends back a result from the function           |
+| default values  | Assign default values to parameters             |
+
+---
+
+#### Basic Function Example:
+
+```python
+def greet():
+    print("Hello, Python!")
+
+greet()
+```
+
+Function with Parameters:
+
+```python
+def greet_user(name):
+    print(f"Hello, {name}!")
+
+greet_user("Asif")
+
+```
+Function with Return Value:
+
+```python
+def add(a, b):
+    return a + b
+
+result = add(5, 3)
+print(result)  # Output: 8
+```
+
+Function with Default Parameter:
+
+```python
+def greet(name="Guest"):
+    print(f"Hello, {name}!")
+
+greet()          # Output: Hello, Guest!
+greet("Asif")    # Output: Hello, Asif!
+```
+✅ Functions help in writing modular, reusable, and clean code.
+
+---
+
 - [Using Python Code as a Module](#using-python-code-as-a-module)
 - [Assignment / Exercise](#assignment-exercise)
 - [Object-Oriented Programming (OOP) in Python](#object-oriented-programming-oop-in-python)
