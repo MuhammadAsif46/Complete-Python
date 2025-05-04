@@ -805,7 +805,49 @@ greet("Asif")    # Output: Hello, Asif!
 
 ---
 
-- [Using Python Code as a Module](#using-python-code-as-a-module)
+## Using Python Code as a Module
+
+In Python, any `.py` file can act as a **module** and can be imported into other Python scripts to reuse code.
+
+| Concept      | Description                                  |
+|:-------------|:---------------------------------------------|
+| module       | A Python file containing functions/classes   |
+| import       | Keyword to load a module                     |
+| from-import  | Import specific parts of a module            |
+
+---
+
+#### Example:
+
+**math_utils.py**  
+```python
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+```
+
+main.py
+```python
+import math_utils
+
+print(math_utils.add(10, 5))        # Output: 15
+print(math_utils.subtract(10, 5))   # Output: 5
+
+```
+
+Using from ... import ...
+```python
+from math_utils import add
+
+print(add(3, 2))  # Output: 5
+
+```
+
+✅ Organizing your code into modules helps in reusability and clean architecture.
+
+---
 - [Assignment / Exercise](#assignment-exercise)
 - [Object-Oriented Programming (OOP) in Python](#object-oriented-programming-oop-in-python)
 - [File Reading and Writing](#file-reading-and-writing)
