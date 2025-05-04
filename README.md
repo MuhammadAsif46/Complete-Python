@@ -751,7 +751,7 @@ for i in range(1, 6):
 
 ---
 
-### Functions
+## Functions
 
 Functions in Python are **blocks of reusable code** used to perform a specific task.
 
