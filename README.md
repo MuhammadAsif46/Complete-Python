@@ -961,9 +961,45 @@ finally:
 
 ---
 
+## Random and Datetime Modules
+
+Python provides built-in modules like `random` and `datetime` to work with randomness and date/time.
+
+---
+
+### ✅ `random` Module
+
+Used to generate random numbers or make random selections.
+
+```python
+import random
+
+print(random.randint(1, 10))         # Random integer between 1 and 10
+print(random.choice(["red", "blue", "green"]))  # Random choice from list
+```
+
+✅ datetime Module
+#### Used to work with dates and times.
+
+```python
+import datetime
+
+now = datetime.datetime.now()
+print("Current Date & Time:", now)
+
+today = datetime.date.today()
+print("Today's Date:", today)
+
+# Formatting date
+formatted = now.strftime("%d-%m-%Y %H:%M:%S")
+print("Formatted Date & Time:", formatted)
+```
+
+✅ These modules are useful for games, logging, scheduling, and time-based logic.
+
+---
 
 (#object-oriented-programming-oop-in-python)
-- [Exception Handling](#exception-handling)
 - [Random and Datetime Modules](#random-and-datetime-modules)
 - [Dice Game Project](#dice-game-project)
 - [What is PyPI and PIP?](#what-is-pypi-and-pip)
