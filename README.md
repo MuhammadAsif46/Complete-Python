@@ -903,14 +903,14 @@ In Python, you can use the built-in `open()` function to **read from** and **wri
 
 ---
 
-### Writing to a File
+#### Writing to a File
 
 ```python
 with open("example.txt", "w") as file:
     file.write("Hello, this is a test file.")
 ```
 
-### Reading from a File
+#### Reading from a File
 ```python
 with open("example.txt", "r") as file:
     content = file.read()
@@ -918,7 +918,7 @@ with open("example.txt", "r") as file:
 
 ```
 
-### Appending to a File
+#### Appending to a File
 ```python
 with open("example.txt", "a") as file:
     file.write("\nThis line is added later.")
@@ -941,7 +941,7 @@ Exception handling in Python allows you to deal with **errors** gracefully witho
 
 ---
 
-### Basic Example
+#### Basic Example
 
 ```python
 try:
@@ -967,7 +967,7 @@ Python provides built-in modules like `random` and `datetime` to work with rando
 
 ---
 
-### ✅ `random` Module
+#### ✅ `random` Module
 
 Used to generate random numbers or make random selections.
 
@@ -1005,7 +1005,7 @@ This mini project simulates a dice roll using Python’s `random` module.
 
 ---
 
-### 🎲 Code Example
+#### 🎲 Code Example
 
 ```python
 import random
