@@ -999,9 +999,38 @@ print("Formatted Date & Time:", formatted)
 
 ---
 
+## Dice Game Project
+
+This mini project simulates a dice roll using Python’s `random` module.
+
+---
+
+### 🎲 Code Example
+
+```python
+import random
+
+print("🎲 Dice Game 🎲")
+input("Press Enter to roll the dice...")
+
+dice = random.randint(1, 6)
+print(f"You rolled a {dice}!")
+```
+
+🔁 Optional: Play Multiple Times
+```python
+import random
+
+while True:
+    input("Press Enter to roll the dice (or Ctrl+C to exit)...")
+    print(f"You rolled: {random.randint(1, 6)}\n")
+```
+✅ This is a fun way to practice the random module and while loop!
+
+---
+
+
 (#object-oriented-programming-oop-in-python)
-- [Random and Datetime Modules](#random-and-datetime-modules)
-- [Dice Game Project](#dice-game-project)
 - [What is PyPI and PIP?](#what-is-pypi-and-pip)
 - [CSV Data Analysis using Pandas](#csv-data-analysis-using-pandas)
 - [Data Visualization using Matplotlib](#data-visualization-using-matplotlib)
