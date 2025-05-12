@@ -1003,8 +1003,6 @@ print("Formatted Date & Time:", formatted)
 
 This mini project simulates a dice roll using Python’s `random` module.
 
----
-
 #### 🎲 Code Example
 
 ```python
@@ -1029,8 +1027,6 @@ while True:
 
 ---
 
-
-(#object-oriented-programming-oop-in-python)
 - [What is PyPI and PIP?](#what-is-pypi-and-pip)
 - [CSV Data Analysis using Pandas](#csv-data-analysis-using-pandas)
 - [Data Visualization using Matplotlib](#data-visualization-using-matplotlib)
