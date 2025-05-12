@@ -928,6 +928,39 @@ with open("example.txt", "a") as file:
 
 ---
 
+## Exception Handling
+
+Exception handling in Python allows you to deal with **errors** gracefully without crashing the program.
+
+| Keyword   | Description                                  |
+|:----------|:---------------------------------------------|
+| try       | Code block to test for errors                |
+| except    | Code block to handle the error               |
+| else      | Executes if no exception occurs              |
+| finally   | Always executes (error or not)               |
+
+---
+
+### Basic Example
+
+```python
+try:
+    num = int(input("Enter a number: "))
+    print(10 / num)
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+except ValueError:
+    print("Invalid input! Please enter a number.")
+else:
+    print("Division successful!")
+finally:
+    print("Execution completed.")
+```
+
+✅ Exception handling helps you build robust and user-friendly applications.
+
+---
+
 
 (#object-oriented-programming-oop-in-python)
 - [Exception Handling](#exception-handling)
