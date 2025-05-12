@@ -848,9 +848,88 @@ print(add(3, 2))  # Output: 5
 ✅ Organizing your code into modules helps in reusability and clean architecture.
 
 ---
-- [Assignment / Exercise](#assignment-exercise)
-- [Object-Oriented Programming (OOP) in Python](#object-oriented-programming-oop-in-python)
-- [File Reading and Writing](#file-reading-and-writing)
+
+## Object-Oriented Programming (OOP) in Python
+
+OOP is a programming paradigm based on **objects and classes** that helps in organizing code and reusability.
+
+| Concept      | Description                                    |
+|:-------------|:-----------------------------------------------|
+| class        | Blueprint for creating objects                 |
+| object       | Instance of a class                            |
+| __init__     | Constructor method, runs when object is created|
+| self         | Refers to the current instance of the class    |
+| method       | Function defined inside a class                |
+
+---
+
+### Basic OOP Example:
+
+```python
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        print(f"Hello, my name is {self.name} and I am {self.age} years old.")
+```
+# Creating object
+```python
+p1 = Person("Asif", 23)
+p1.greet()
+```
+### Output
+```python
+Hello, my name is Asif and I am 23 years old.
+```
+
+✅ OOP makes your code modular, scalable, and easier to maintain.
+
+---
+
+## File Reading and Writing
+
+In Python, you can use the built-in `open()` function to **read from** and **write to** files.
+
+| Mode | Description           |
+|:-----|:----------------------|
+| 'r'  | Read (default mode)   |
+| 'w'  | Write (overwrite)     |
+| 'a'  | Append                |
+| 'x'  | Create new file       |
+| 'rb' | Read binary           |
+| 'wb' | Write binary          |
+
+---
+
+### Writing to a File
+
+```python
+with open("example.txt", "w") as file:
+    file.write("Hello, this is a test file.")
+```
+
+### Reading from a File
+```python
+with open("example.txt", "r") as file:
+    content = file.read()
+    print(content)
+
+```
+
+### Appending to a File
+```python
+with open("example.txt", "a") as file:
+    file.write("\nThis line is added later.")
+```
+
+✅ Always use with open(...) — it automatically closes the file after use.
+
+---
+
+
+(#object-oriented-programming-oop-in-python)
 - [Exception Handling](#exception-handling)
 - [Random and Datetime Modules](#random-and-datetime-modules)
 - [Dice Game Project](#dice-game-project)
