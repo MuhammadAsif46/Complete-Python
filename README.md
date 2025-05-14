@@ -1027,7 +1027,44 @@ while True:
 
 ---
 
-- [What is PyPI and PIP?](#what-is-pypi-and-pip)
+## What is PyPI and PIP?
+
+### 📦 PyPI (Python Package Index)
+
+PyPI is the **official third-party software repository** for Python.  
+It contains thousands of packages and libraries that you can use in your Python projects.
+
+🔗 Visit: [https://pypi.org](https://pypi.org)
+
+---
+
+## 📥 PIP (Python Installer Package)
+
+PIP is the tool used to **install packages** from PyPI.
+
+---
+
+### ✅ Basic PIP Commands
+
+| Command                           | Description                          |
+|:----------------------------------|:-------------------------------------|
+| `pip install package-name`        | Install a package                    |
+| `pip uninstall package-name`      | Uninstall a package                  |
+| `pip list`                        | List all installed packages          |
+| `pip show package-name`           | Show info about a package            |
+| `pip freeze > requirements.txt`   | Save installed packages to a file    |
+| `pip install -r requirements.txt` | Install from a `requirements.txt`    |
+
+---
+
+#### 🔧 Example
+
+```bash
+pip install pandas
+```
+
+---
+
 - [CSV Data Analysis using Pandas](#csv-data-analysis-using-pandas)
 - [Data Visualization using Matplotlib](#data-visualization-using-matplotlib)
 - [Sending Emails using SMTP Library](#sending-emails-using-smtp-library)
