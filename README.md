@@ -141,6 +141,7 @@ age = 22
 price = 499.99
 is_active = True
 ```
+
 🔹 Roles of Variables:
 
 - Store information (like numbers, text, etc.)
@@ -154,7 +155,7 @@ is_active = True
 
 ## Data Types
 
-Data types represent the kind of data a variable holds. 
+Data types represent the kind of data a variable holds.
 Each value in Python has a specific type.
 
 🔹 Common Data Types in Python:
@@ -169,6 +170,7 @@ Each value in Python has a specific type.
 - **set** — Unordered unique elements (e.g., {1, 2, 3})
 
 🔹 Examples:
+
 ```bash
 # Integer
 x = 10
@@ -192,9 +194,11 @@ student = {"name": "Asif", "age": 22}
 ✅ Python automatically sets the type when you assign a value.
 
 ### How to Check the Type of a Variable
+
 In Python, you can use the type() function to check what type of data a variable holds.
 
 🔹 Example:
+
 ```bash
 x = 10
 print(type(x))   # Output: <class 'int'>
@@ -202,6 +206,7 @@ print(type(x))   # Output: <class 'int'>
 y = "Hello"
 print(type(y))   # Output: <class 'str'>
 ```
+
 ✅ type() function helps you understand what kind of value a variable is storing.
 
 ---
@@ -210,15 +215,15 @@ print(type(y))   # Output: <class 'str'>
 
 In Python, arithmetic operations are used to perform basic mathematical calculations like addition, subtraction, multiplication, and division.
 
-| Operator | Description        | Example     | Output  |
-|:---------|:--------------------|:------------|:--------|
-| `+`      | Addition             | `5 + 3`     | `8`     |
-| `-`      | Subtraction          | `5 - 3`     | `2`     |
-| `*`      | Multiplication       | `5 * 3`     | `15`    |
-| `/`      | Division             | `5 / 2`     | `2.5`   |
-| `//`     | Floor Division       | `5 // 2`    | `2`     |
-| `%`      | Modulus (Remainder)  | `5 % 2`     | `1`     |
-| `**`     | Exponent (Power)     | `2 ** 3`    | `8`     |
+| Operator | Description         | Example  | Output |
+| :------- | :------------------ | :------- | :----- |
+| `+`      | Addition            | `5 + 3`  | `8`    |
+| `-`      | Subtraction         | `5 - 3`  | `2`    |
+| `*`      | Multiplication      | `5 * 3`  | `15`   |
+| `/`      | Division            | `5 / 2`  | `2.5`  |
+| `//`     | Floor Division      | `5 // 2` | `2`    |
+| `%`      | Modulus (Remainder) | `5 % 2`  | `1`    |
+| `**`     | Exponent (Power)    | `2 ** 3` | `8`    |
 
 #### Examples:
 
@@ -241,16 +246,16 @@ print(a ** b)  # 1000
 
 In Python, strings are sequences of characters. You can perform many operations on strings like joining, slicing, repeating, and finding length.
 
-| Operation     | Example                      | Output          |
-|:--------------|:------------------------------|:----------------|
-| Concatenation | `"Hello " + "World"`           | `Hello World`   |
-| Repetition    | `"Hi " * 3`                    | `Hi Hi Hi `     |
-| Length        | `len("Python")`                | `6`             |
-| Slicing       | `"Python"[0:3]`                | `Pyt`           |
-| Lowercase     | `"HELLO".lower()`              | `hello`         |
-| Uppercase     | `"hello".upper()`              | `HELLO`         |
+| Operation     | Example                                    | Output         |
+| :------------ | :----------------------------------------- | :------------- |
+| Concatenation | `"Hello " + "World"`                       | `Hello World`  |
+| Repetition    | `"Hi " * 3`                                | `Hi Hi Hi `    |
+| Length        | `len("Python")`                            | `6`            |
+| Slicing       | `"Python"[0:3]`                            | `Pyt`          |
+| Lowercase     | `"HELLO".lower()`                          | `hello`        |
+| Uppercase     | `"hello".upper()`                          | `HELLO`        |
 | Replace       | `"hello world".replace("world", "Python")` | `hello Python` |
-| Find          | `"hello".find("e")`             | `1`             |
+| Find          | `"hello".find("e")`                        | `1`            |
 
 #### Examples:
 
@@ -281,6 +286,7 @@ print(sentence.replace("Java", "Python"))  # I love Python
 # Find
 print(str1.find('e'))       # 1
 ```
+
 ---
 
 ## Lists
@@ -293,16 +299,16 @@ In Python, a list is a collection which is ordered and changeable (mutable). Lis
 4. Lists allow duplicate values.
 5. Common operations include indexing, slicing, adding, removing, and looping.
 
-| Operation        | Example                     | Output                    |
-|:-----------------|:-----------------------------|:---------------------------|
-| Create List      | `my_list = [1, 2, 3]`         | `[1, 2, 3]`                |
-| Indexing         | `my_list[0]`                 | `1`                       |
-| Slicing          | `my_list[0:2]`               | `[1, 2]`                  |
-| Append           | `my_list.append(4)`          | `[1, 2, 3, 4]`            |
-| Insert           | `my_list.insert(1, 5)`       | `[1, 5, 2, 3, 4]`         |
-| Remove           | `my_list.remove(2)`          | `[1, 5, 3, 4]`            |
-| Pop              | `my_list.pop()`              | Removes last element `4`  |
-| Length           | `len(my_list)`               | `3` (after pop)           |
+| Operation   | Example                | Output                   |
+| :---------- | :--------------------- | :----------------------- |
+| Create List | `my_list = [1, 2, 3]`  | `[1, 2, 3]`              |
+| Indexing    | `my_list[0]`           | `1`                      |
+| Slicing     | `my_list[0:2]`         | `[1, 2]`                 |
+| Append      | `my_list.append(4)`    | `[1, 2, 3, 4]`           |
+| Insert      | `my_list.insert(1, 5)` | `[1, 5, 2, 3, 4]`        |
+| Remove      | `my_list.remove(2)`    | `[1, 5, 3, 4]`           |
+| Pop         | `my_list.pop()`        | Removes last element `4` |
+| Length      | `len(my_list)`         | `3` (after pop)          |
 
 #### Examples:
 
@@ -336,6 +342,7 @@ print(fruits)      # ['apple', 'mango', 'cherry']
 # Length of list
 print(len(fruits))  # 3
 ```
+
 ✅ Lists are super flexible for storing multiple values in a single variable.
 
 ---
@@ -350,15 +357,15 @@ In Python, a tuple is a collection which is ordered and **immutable** (cannot be
 4. Tuples allow duplicate values.
 5. Useful when you want data to stay constant.
 
-| Operation        | Example                      | Output                |
-|:-----------------|:------------------------------|:----------------------|
-| Create Tuple     | `my_tuple = (1, 2, 3)`         | `(1, 2, 3)`           |
-| Single Item Tuple| `single = (5,)`                | `(5,)`                |
-| Indexing         | `my_tuple[1]`                 | `2`                   |
-| Slicing          | `my_tuple[0:2]`               | `(1, 2)`              |
-| Length           | `len(my_tuple)`               | `3`                   |
-| Count Elements   | `my_tuple.count(2)`            | `1`                   |
-| Find Index       | `my_tuple.index(3)`            | `2`                   |
+| Operation         | Example                | Output      |
+| :---------------- | :--------------------- | :---------- |
+| Create Tuple      | `my_tuple = (1, 2, 3)` | `(1, 2, 3)` |
+| Single Item Tuple | `single = (5,)`        | `(5,)`      |
+| Indexing          | `my_tuple[1]`          | `2`         |
+| Slicing           | `my_tuple[0:2]`        | `(1, 2)`    |
+| Length            | `len(my_tuple)`        | `3`         |
+| Count Elements    | `my_tuple.count(2)`    | `1`         |
+| Find Index        | `my_tuple.index(3)`    | `2`         |
 
 #### Examples:
 
@@ -385,6 +392,7 @@ print(numbers.index(3))  # 2
 single_item = (5,)
 print(single_item)  # (5,)
 ```
+
 ✅ Tuples are perfect when you want fixed, read-only data in Python.
 
 ---
@@ -399,16 +407,16 @@ In Python, a dictionary is a collection of key-value pairs. Dictionaries are **u
 4. Dictionaries are mutable (can add, change, or remove key-value pairs).
 5. Useful for structured data storage (like JSON).
 
-| Operation          | Example                                  | Output                          |
-|:-------------------|:-----------------------------------------|:--------------------------------|
-| Create Dictionary  | `my_dict = {"name": "Asif", "age": 20}`   | `{'name': 'Asif', 'age': 20}`   |
-| Access Value       | `my_dict["name"]`                        | `'Asif'`                        |
-| Add Item           | `my_dict["city"] = "Karachi"`             | Adds `'city': 'Karachi'`        |
-| Update Value       | `my_dict["age"] = 21`                    | Updates `'age': 21`             |
-| Remove Item        | `my_dict.pop("city")`                    | Removes `'city'`                |
-| Keys List          | `my_dict.keys()`                         | `dict_keys(['name', 'age'])`    |
-| Values List        | `my_dict.values()`                       | `dict_values(['Asif', 21])`     |
-| Items (Pairs)      | `my_dict.items()`                        | `dict_items([('name', 'Asif'), ('age', 21)])` |
+| Operation         | Example                                 | Output                                        |
+| :---------------- | :-------------------------------------- | :-------------------------------------------- |
+| Create Dictionary | `my_dict = {"name": "Asif", "age": 20}` | `{'name': 'Asif', 'age': 20}`                 |
+| Access Value      | `my_dict["name"]`                       | `'Asif'`                                      |
+| Add Item          | `my_dict["city"] = "Karachi"`           | Adds `'city': 'Karachi'`                      |
+| Update Value      | `my_dict["age"] = 21`                   | Updates `'age': 21`                           |
+| Remove Item       | `my_dict.pop("city")`                   | Removes `'city'`                              |
+| Keys List         | `my_dict.keys()`                        | `dict_keys(['name', 'age'])`                  |
+| Values List       | `my_dict.values()`                      | `dict_values(['Asif', 21])`                   |
+| Items (Pairs)     | `my_dict.items()`                       | `dict_items([('name', 'Asif'), ('age', 21)])` |
 
 #### Examples:
 
@@ -458,15 +466,15 @@ In Python, a set is an **unordered**, **unindexed**, and **mutable** collection 
 3. Sets do not support indexing or slicing.
 4. Sets are useful for membership tests, removing duplicates, and mathematical operations (union, intersection).
 
-| Operation             | Example                          | Output                           |
-|:----------------------|:---------------------------------|:---------------------------------|
-| Create Set            | `my_set = {1, 2, 3}`             | `{1, 2, 3}`                      |
-| Add Element           | `my_set.add(4)`                  | Adds `4` to the set              |
-| Remove Element        | `my_set.remove(2)`               | Removes `2`                      |
-| Discard Element       | `my_set.discard(5)`              | No error even if `5` not present |
-| Union of Sets         | `set1.union(set2)`               | Combine sets                    |
-| Intersection of Sets  | `set1.intersection(set2)`        | Common elements                 |
-| Difference of Sets    | `set1.difference(set2)`          | Elements only in set1           |
+| Operation            | Example                   | Output                           |
+| :------------------- | :------------------------ | :------------------------------- |
+| Create Set           | `my_set = {1, 2, 3}`      | `{1, 2, 3}`                      |
+| Add Element          | `my_set.add(4)`           | Adds `4` to the set              |
+| Remove Element       | `my_set.remove(2)`        | Removes `2`                      |
+| Discard Element      | `my_set.discard(5)`       | No error even if `5` not present |
+| Union of Sets        | `set1.union(set2)`        | Combine sets                     |
+| Intersection of Sets | `set1.intersection(set2)` | Common elements                  |
+| Difference of Sets   | `set1.difference(set2)`   | Elements only in set1            |
 
 #### Examples:
 
@@ -496,6 +504,7 @@ print(set1.intersection(set2))  # {3}
 # Set difference
 print(set1.difference(set2))  # {1, 2}
 ```
+
 ✅ Sets are great for working with unique items and set operations.
 
 ---
@@ -505,12 +514,12 @@ print(set1.difference(set2))  # {1, 2}
 In Python, `input()` function is used to take input from the user.  
 The input is always received as a **string**. You can typecast it into other data types like `int`, `float`, etc.
 
-| Operation                | Example                                       | Output/Behavior                |
-|:--------------------------|:----------------------------------------------|:-------------------------------|
-| Take String Input         | `name = input("Enter your name: ")`            | User types input (e.g., "Asif") |
-| Take Integer Input        | `age = int(input("Enter your age: "))`         | Converts input to integer      |
-| Take Float Input          | `price = float(input("Enter the price: "))`    | Converts input to float        |
-| Display User Input        | `print(name)`                                 | Prints the user input          |
+| Operation          | Example                                     | Output/Behavior                 |
+| :----------------- | :------------------------------------------ | :------------------------------ |
+| Take String Input  | `name = input("Enter your name: ")`         | User types input (e.g., "Asif") |
+| Take Integer Input | `age = int(input("Enter your age: "))`      | Converts input to integer       |
+| Take Float Input   | `price = float(input("Enter the price: "))` | Converts input to float         |
+| Display User Input | `print(name)`                               | Prints the user input           |
 
 #### Examples:
 
@@ -542,11 +551,11 @@ print(f"The sum is {num1 + num2}")
 In Python, conditional statements allow you to **make decisions** based on certain conditions.  
 The main keywords are `if`, `else`, and `elif`.
 
-| Statement | Purpose                                          |
-|:----------|:-------------------------------------------------|
-| if        | Executes a block of code if the condition is true |
+| Statement | Purpose                                                 |
+| :-------- | :------------------------------------------------------ |
+| if        | Executes a block of code if the condition is true       |
 | elif      | (Else If) Checks another condition if previous is false |
-| else      | Executes a block of code if all conditions are false |
+| else      | Executes a block of code if all conditions are false    |
 
 #### Syntax:
 
@@ -595,10 +604,10 @@ else:
 Logical operators are used to **combine multiple conditions**.  
 Python mainly has three logical operators: `and`, `or`, and `not`.
 
-| Operator | Description                               | Example                                |
-|:---------|:------------------------------------------|:---------------------------------------|
-| and      | Returns True if **both** conditions are true | `(5 > 2) and (3 < 7)` → True          |
-| or       | Returns True if **at least one** condition is true | `(5 > 8) or (3 < 7)` → True      |
+| Operator | Description                                        | Example                      |
+| :------- | :------------------------------------------------- | :--------------------------- |
+| and      | Returns True if **both** conditions are true       | `(5 > 2) and (3 < 7)` → True |
+| or       | Returns True if **at least one** condition is true | `(5 > 8) or (3 < 7)` → True  |
 
 #### Examples:
 
@@ -635,11 +644,11 @@ else:
 
 In Python, a `for` loop is used to **iterate over sequences** like lists, tuples, strings, etc.
 
-| Use Case           | Description                                  |
-|:-------------------|:---------------------------------------------|
-| Loop over a list    | Access each item in a list                  |
-| Loop over a string  | Access each character                      |
-| Use with range()    | Generate numbers in a sequence             |
+| Use Case           | Description                    |
+| :----------------- | :----------------------------- |
+| Loop over a list   | Access each item in a list     |
+| Loop over a string | Access each character          |
+| Use with range()   | Generate numbers in a sequence |
 
 #### Syntax:
 
@@ -673,11 +682,11 @@ for i in range(2, 7):
 
 A `while` loop in Python is used to **execute a block of code repeatedly** as long as a given condition is `True`.
 
-| Element      | Description                                  |
-|:-------------|:---------------------------------------------|
-| while loop   | Repeats code while the condition is true     |
-| break        | Exits the loop early                         |
-| continue     | Skips to the next iteration                  |
+| Element    | Description                              |
+| :--------- | :--------------------------------------- |
+| while loop | Repeats code while the condition is true |
+| break      | Exits the loop early                     |
+| continue   | Skips to the next iteration              |
 
 #### Syntax:
 
@@ -685,6 +694,7 @@ A `while` loop in Python is used to **execute a block of code repeatedly** as lo
 while condition:
     # code block
 ```
+
 ```python
 # Basic while loop
 count = 1
@@ -718,7 +728,7 @@ while i < 10:
 In Python loops, `break` and `continue` are used to control the flow of the loop.
 
 | Statement | Description                                       |
-|:----------|:--------------------------------------------------|
+| :-------- | :------------------------------------------------ |
 | break     | Immediately exits the loop                        |
 | continue  | Skips the current iteration and moves to the next |
 
@@ -737,6 +747,7 @@ for i in range(1, 6):
 ```
 
 ### Continue Example:
+
 ```python
 # Skip printing number 3
 for i in range(1, 6):
@@ -755,12 +766,12 @@ for i in range(1, 6):
 
 Functions in Python are **blocks of reusable code** used to perform a specific task.
 
-| Concept         | Description                                     |
-|:----------------|:------------------------------------------------|
-| def             | Keyword to define a function                    |
-| parameters      | Input values to the function                    |
-| return          | Sends back a result from the function           |
-| default values  | Assign default values to parameters             |
+| Concept        | Description                           |
+| :------------- | :------------------------------------ |
+| def            | Keyword to define a function          |
+| parameters     | Input values to the function          |
+| return         | Sends back a result from the function |
+| default values | Assign default values to parameters   |
 
 ---
 
@@ -782,6 +793,7 @@ def greet_user(name):
 greet_user("Asif")
 
 ```
+
 Function with Return Value:
 
 ```python
@@ -801,6 +813,7 @@ def greet(name="Guest"):
 greet()          # Output: Hello, Guest!
 greet("Asif")    # Output: Hello, Asif!
 ```
+
 ✅ Functions help in writing modular, reusable, and clean code.
 
 ---
@@ -809,17 +822,18 @@ greet("Asif")    # Output: Hello, Asif!
 
 In Python, any `.py` file can act as a **module** and can be imported into other Python scripts to reuse code.
 
-| Concept      | Description                                  |
-|:-------------|:---------------------------------------------|
-| module       | A Python file containing functions/classes   |
-| import       | Keyword to load a module                     |
-| from-import  | Import specific parts of a module            |
+| Concept     | Description                                |
+| :---------- | :----------------------------------------- |
+| module      | A Python file containing functions/classes |
+| import      | Keyword to load a module                   |
+| from-import | Import specific parts of a module          |
 
 ---
 
 #### Example:
 
-**math_utils.py**  
+**math_utils.py**
+
 ```python
 def add(a, b):
     return a + b
@@ -829,6 +843,7 @@ def subtract(a, b):
 ```
 
 main.py
+
 ```python
 import math_utils
 
@@ -838,6 +853,7 @@ print(math_utils.subtract(10, 5))   # Output: 5
 ```
 
 Using from ... import ...
+
 ```python
 from math_utils import add
 
@@ -853,13 +869,13 @@ print(add(3, 2))  # Output: 5
 
 OOP is a programming paradigm based on **objects and classes** that helps in organizing code and reusability.
 
-| Concept      | Description                                    |
-|:-------------|:-----------------------------------------------|
-| class        | Blueprint for creating objects                 |
-| object       | Instance of a class                            |
-| __init__     | Constructor method, runs when object is created|
-| self         | Refers to the current instance of the class    |
-| method       | Function defined inside a class                |
+| Concept  | Description                                     |
+| :------- | :---------------------------------------------- |
+| class    | Blueprint for creating objects                  |
+| object   | Instance of a class                             |
+| **init** | Constructor method, runs when object is created |
+| self     | Refers to the current instance of the class     |
+| method   | Function defined inside a class                 |
 
 ---
 
@@ -874,12 +890,16 @@ class Person:
     def greet(self):
         print(f"Hello, my name is {self.name} and I am {self.age} years old.")
 ```
+
 ### Creating object
+
 ```python
 p1 = Person("Asif", 23)
 p1.greet()
 ```
+
 ### Output
+
 ```python
 Hello, my name is Asif and I am 23 years old.
 ```
@@ -892,14 +912,14 @@ Hello, my name is Asif and I am 23 years old.
 
 In Python, you can use the built-in `open()` function to **read from** and **write to** files.
 
-| Mode | Description           |
-|:-----|:----------------------|
-| 'r'  | Read (default mode)   |
-| 'w'  | Write (overwrite)     |
-| 'a'  | Append                |
-| 'x'  | Create new file       |
-| 'rb' | Read binary           |
-| 'wb' | Write binary          |
+| Mode | Description         |
+| :--- | :------------------ |
+| 'r'  | Read (default mode) |
+| 'w'  | Write (overwrite)   |
+| 'a'  | Append              |
+| 'x'  | Create new file     |
+| 'rb' | Read binary         |
+| 'wb' | Write binary        |
 
 ---
 
@@ -911,6 +931,7 @@ with open("example.txt", "w") as file:
 ```
 
 #### Reading from a File
+
 ```python
 with open("example.txt", "r") as file:
     content = file.read()
@@ -919,6 +940,7 @@ with open("example.txt", "r") as file:
 ```
 
 #### Appending to a File
+
 ```python
 with open("example.txt", "a") as file:
     file.write("\nThis line is added later.")
@@ -932,12 +954,12 @@ with open("example.txt", "a") as file:
 
 Exception handling in Python allows you to deal with **errors** gracefully without crashing the program.
 
-| Keyword   | Description                                  |
-|:----------|:---------------------------------------------|
-| try       | Code block to test for errors                |
-| except    | Code block to handle the error               |
-| else      | Executes if no exception occurs              |
-| finally   | Always executes (error or not)               |
+| Keyword | Description                     |
+| :------ | :------------------------------ |
+| try     | Code block to test for errors   |
+| except  | Code block to handle the error  |
+| else    | Executes if no exception occurs |
+| finally | Always executes (error or not)  |
 
 ---
 
@@ -979,6 +1001,7 @@ print(random.choice(["red", "blue", "green"]))  # Random choice from list
 ```
 
 ✅ datetime Module
+
 #### Used to work with dates and times.
 
 ```python
@@ -1016,6 +1039,7 @@ print(f"You rolled a {dice}!")
 ```
 
 🔁 Optional: Play Multiple Times
+
 ```python
 import random
 
@@ -1023,6 +1047,7 @@ while True:
     input("Press Enter to roll the dice (or Ctrl+C to exit)...")
     print(f"You rolled: {random.randint(1, 6)}\n")
 ```
+
 ✅ This is a fun way to practice the random module and while loop!
 
 ---
@@ -1046,14 +1071,14 @@ PIP is the tool used to **install packages** from PyPI.
 
 ### ✅ Basic PIP Commands
 
-| Command                           | Description                          |
-|:----------------------------------|:-------------------------------------|
-| `pip install package-name`        | Install a package                    |
-| `pip uninstall package-name`      | Uninstall a package                  |
-| `pip list`                        | List all installed packages          |
-| `pip show package-name`           | Show info about a package            |
-| `pip freeze > requirements.txt`   | Save installed packages to a file    |
-| `pip install -r requirements.txt` | Install from a `requirements.txt`    |
+| Command                           | Description                       |
+| :-------------------------------- | :-------------------------------- |
+| `pip install package-name`        | Install a package                 |
+| `pip uninstall package-name`      | Uninstall a package               |
+| `pip list`                        | List all installed packages       |
+| `pip show package-name`           | Show info about a package         |
+| `pip freeze > requirements.txt`   | Save installed packages to a file |
+| `pip install -r requirements.txt` | Install from a `requirements.txt` |
 
 ---
 
@@ -1065,7 +1090,50 @@ pip install pandas
 
 ---
 
-- [CSV Data Analysis using Pandas](#csv-data-analysis-using-pandas)
+### CSV Data Analysis using Pandas
+
+The `pandas` library in Python is widely used for **data analysis**, especially with CSV files.
+
+---
+
+#### 📥 Installing Pandas
+
+```bash
+pip install pandas
+```
+
+#### 🧾 Reading CSV File
+
+```python
+import pandas as pd
+
+# Load data from a CSV file
+data = pd.read_csv('data.csv')
+
+# Display first 5 rows
+print(data.head())
+```
+
+#### 📊 Common Operations
+
+```python
+print(data.shape)         # Rows and columns
+print(data.columns)       # Column names
+print(data.describe())    # Summary statistics
+print(data['column_name'].value_counts())  # Count of unique values
+```
+
+#### 🔍 Filtering Data
+
+```python
+# Rows where age > 25
+filtered = data[data['age'] > 25]
+print(filtered)
+```
+✅ pandas makes it easy to manipulate, filter, and analyze CSV data in just a few lines of code.
+
+---
+
 - [Data Visualization using Matplotlib](#data-visualization-using-matplotlib)
 - [Sending Emails using SMTP Library](#sending-emails-using-smtp-library)
 - [Weather App using API in Python](#weather-app-using-api-in-python)
@@ -1079,7 +1147,3 @@ These notes are designed to help learners move from basic Python concepts to mor
 Ideal for building projects, automation, and real-world applications.
 
 ---
-
-```
-
-```
