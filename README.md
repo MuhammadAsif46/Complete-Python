@@ -1090,7 +1090,7 @@ pip install pandas
 
 ---
 
-### CSV Data Analysis using Pandas
+## CSV Data Analysis using Pandas
 
 The `pandas` library in Python is widely used for **data analysis**, especially with CSV files.
 
@@ -1134,7 +1134,58 @@ print(filtered)
 
 ---
 
-- [Data Visualization using Matplotlib](#data-visualization-using-matplotlib)
+### Data Visualization using Matplotlib
+
+`matplotlib` is a powerful Python library used to create static, animated, and interactive visualizations.
+
+---
+
+#### 📥 Installing Matplotlib
+
+```bash
+pip install matplotlib
+```
+
+### 📈 Basic Line Plot
+```python
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 25, 30, 40]
+
+plt.plot(x, y)
+plt.title('Simple Line Chart')
+plt.xlabel('X Axis')
+plt.ylabel('Y Axis')
+plt.show()
+
+```
+
+### 📊 Bar Chart
+
+```python
+categories = ['A', 'B', 'C']
+values = [10, 15, 7]
+
+plt.bar(categories, values)
+plt.title('Bar Chart')
+plt.show()
+
+```
+
+### 🧁 Pie Chart
+```python
+slices = [40, 35, 25]
+labels = ['Python', 'JavaScript', 'C++']
+
+plt.pie(slices, labels=labels, autopct='%1.1f%%')
+plt.title('Pie Chart of Programming Languages')
+plt.show()
+
+```
+✅ matplotlib is ideal for visualizing data with charts, graphs, and plots in Python.
+
+---
 - [Sending Emails using SMTP Library](#sending-emails-using-smtp-library)
 - [Weather App using API in Python](#weather-app-using-api-in-python)
 - [Running Linux Commands using Python (Subprocess Module)](#running-linux-commands-using-python-subprocess-module)
