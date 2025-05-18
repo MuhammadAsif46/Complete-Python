@@ -36,5 +36,8 @@ print(data)
 
 
 # Drop the 'salary' column
-data = data.drop('bonus', axis=1)
-print(data)
+# data = data.drop('bonus', axis=1)
+# print(data)
+
+
+data.to_csv("emp_data_modified")
