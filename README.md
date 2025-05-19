@@ -1186,7 +1186,49 @@ plt.show()
 ✅ matplotlib is ideal for visualizing data with charts, graphs, and plots in Python.
 
 ---
-- [Sending Emails using SMTP Library](#sending-emails-using-smtp-library)
+
+## Sending Emails using SMTP Library
+
+Python provides the `smtplib` module to send emails using the **Simple Mail Transfer Protocol (SMTP)**.
+
+---
+
+### 📥 Gmail SMTP Server Details
+
+- SMTP Server: `smtp.gmail.com`
+- Port: `587`
+
+---
+
+### ✉️ Sending an Email with smtplib
+
+```python
+import smtplib
+from email.message import EmailMessage
+
+# Create Email
+msg = EmailMessage()
+msg['Subject'] = 'Hello from Python'
+msg['From'] = 'your_email@gmail.com'
+msg['To'] = 'receiver_email@gmail.com'
+msg.set_content('This is a test email sent from Python!')
+
+# Send Email
+with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
+    smtp.starttls()
+    smtp.login('your_email@gmail.com', 'your_app_password')  # Use App Password (not real password)
+    smtp.send_message(msg)
+
+print("Email sent successfully!")
+```
+
+#### Important Notes
+- Enable 2-Step Verification in your Gmail account.
+- Create an App Password from your Google Account → Security → App Passwords.
+- Never share or hardcode your credentials in public code.
+
+✅ smtplib is useful for automating emails for notifications, alerts, or reports.
+---
 - [Weather App using API in Python](#weather-app-using-api-in-python)
 - [Running Linux Commands using Python (Subprocess Module)](#running-linux-commands-using-python-subprocess-module)
 
