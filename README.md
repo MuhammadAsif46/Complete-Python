@@ -1229,7 +1229,52 @@ print("Email sent successfully!")
 
 ✅ smtplib is useful for automating emails for notifications, alerts, or reports.
 ---
-- [Weather App using API in Python](#weather-app-using-api-in-python)
+
+## Weather App using API in Python
+
+You can build a Weather App in Python using APIs like **OpenWeatherMap** to fetch real-time weather data.
+
+---
+
+### 🌐 Step 1: Get API Key
+
+- Sign up at [https://openweathermap.org](https://openweathermap.org)
+- Go to your profile → API Keys → Create and copy your API key
+
+---
+
+### 📥 Install Requests Module
+
+```bash
+pip install requests
+```
+
+### Sample Code:
+```python
+import requests
+
+API_KEY = 'your_api_key_here'
+city = 'Karachi'
+url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric'
+
+response = requests.get(url)
+data = response.json()
+
+if data['cod'] == 200:
+    temperature = data['main']['temp']
+    description = data['weather'][0]['description']
+    print(f"Temperature in {city}: {temperature}°C")
+    print(f"Weather: {description}")
+else:
+    print("City not found or API error.")
+```
+### 🔐 Notes
+- Always keep your API key secure (avoid pushing it to GitHub).
+- You can use .env files or environment variables to hide your API key.
+
+✅ This project helps you practice working with REST APIs, JSON data, and the requests library.
+
+---
 - [Running Linux Commands using Python (Subprocess Module)](#running-linux-commands-using-python-subprocess-module)
 
 ---
