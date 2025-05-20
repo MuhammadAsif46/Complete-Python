@@ -1275,7 +1275,40 @@ else:
 ✅ This project helps you practice working with REST APIs, JSON data, and the requests library.
 
 ---
-- [Running Linux Commands using Python (Subprocess Module)](#running-linux-commands-using-python-subprocess-module)
+
+## Running Linux Commands using Python (Subprocess Module)
+
+Python provides the `subprocess` module to run shell commands directly from your code.
+
+---
+
+### 📦 Import Subprocess
+
+```python
+import subprocess
+```
+
+**Run a Simple Linux Command**
+```python
+# Example: List all files in the current directory
+result = subprocess.run(['ls', '-l'], capture_output=True, text=True)
+
+print(result.stdout)
+```
+
+**Check Command Success**
+```python
+
+if result.returncode == 0:
+    print("Command executed successfully.")
+else:
+    print("Error occurred while executing the command.")
+```
+
+**🔐 Security Tip**
+Avoid passing untrusted user input directly to subprocess to prevent shell injection.
+
+✅ This module is powerful when automating system tasks or writing scripts that interact with the operating system.
 
 ---
 
