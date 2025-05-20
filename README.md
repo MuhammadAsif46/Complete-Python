@@ -1228,13 +1228,12 @@ print("Email sent successfully!")
 - Never share or hardcode your credentials in public code.
 
 ✅ smtplib is useful for automating emails for notifications, alerts, or reports.
+
 ---
 
 ## Weather App using API in Python
 
 You can build a Weather App in Python using APIs like **OpenWeatherMap** to fetch real-time weather data.
-
----
 
 ### 🌐 Step 1: Get API Key
 
@@ -1279,8 +1278,6 @@ else:
 ## Running Linux Commands using Python (Subprocess Module)
 
 Python provides the `subprocess` module to run shell commands directly from your code.
-
----
 
 ### 📦 Import Subprocess
 
